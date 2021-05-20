@@ -1,5 +1,5 @@
 # eqtlMobile
-Aplicativo da Equaltorial Energia feito através do react-native CLI
+Aplicativo feito para trazer os serviços da Equatorial Energia para o ambiente mobile, feito através do react-native CLI
 
 ## Android Emulator
 Para rodar no android emulator, inicie algum emulador pelo android studio e digite 
