@@ -6,7 +6,7 @@ Para rodar no android emulator, inicie algum emulador pelo android studio e digi
 ```
 yarn start ou npm start
 ```
-caso não tenha yarn, acesse https://yarnpkg.com/getting-started/install
+caso não tenha yarn, acesse https://yarnpkg.com/getting-started/install</br>
 abra outro terminal na raiz do projeto e digite:
 ```
 react-native run-android
