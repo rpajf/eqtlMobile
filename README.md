@@ -4,8 +4,9 @@ Aplicativo feito para trazer os serviços da Equatorial Energia para o ambiente 
 ## Android Emulator
 Para rodar no android emulator, inicie algum emulador pelo android studio e digite 
 ```
-yarn start
+yarn start ou npm start
 ```
+caso não tenha yarn, acesse https://yarnpkg.com/getting-started/install
 abra outro terminal na raiz do projeto e digite:
 ```
 react-native run-android
