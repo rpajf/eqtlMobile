@@ -2,7 +2,7 @@
 Aplicativo feito para trazer os serviços da Equatorial Energia para o ambiente mobile, feito através do react-native CLI
 
 ## Android Emulator
-Para rodar no android emulator, inicie algum emulador pelo android studio e digite em um terminal na raiz do projeto 
+Para rodar no android emulator, inicie algum emulador pelo android studio e digite em um terminal na raiz do projeto:
 ```
 yarn start ou npm start
 ```
@@ -12,8 +12,8 @@ Abra outro terminal na raiz do projeto e digite:
 react-native run-android
 ```
 ## Usb device
-Caso queira debugar no próprio celular, conecte o dispositivo no usb, permita o debugg através das Opções de desenvolvedor,
-veja se o dispositivo está conectado através do comando
+Caso queira debugar no próprio celular, conecte o dispositivo no usb, permita o debugg através das opções de desenvolvedor,
+veja se o dispositivo está conectado através do comando:
 ```
 adb devices
 ```
