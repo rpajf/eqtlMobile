@@ -1,0 +1,14 @@
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
+
+import DashBoard2 from '../screens/DashBoard2'
+
+const Tab = createBottomTabNavigator()
+const Tabs = () => {
+
+  return(
+    <Tab.Navigator>
+
+      </Tab.Navigator>
+
+  )
+}
