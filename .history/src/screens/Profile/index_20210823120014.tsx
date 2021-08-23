@@ -11,7 +11,7 @@ import {
 
 
 
-const Profile: React.FC = () => {
+const Profile: React.FC = ({ navigation }) => {
   // const {navigate} = useNavigation();
   return (
     <Container>
