@@ -18,7 +18,7 @@ export interface DashboardProps {
   navigation: BottomTabNavigationProp<BottomNavigatorParamsList, 'Dashboard'>;
 }
 
-const Dashboard: React.FC<DashboardProps> = ({ navigation }) => {
+const Dashboard: React.FC<DashboardProps> = ({navigation}) => {
   return (
     <Container>
       <Header>
@@ -30,8 +30,8 @@ const Dashboard: React.FC<DashboardProps> = ({ navigation }) => {
         <SmallText>Conta atual</SmallText>
         <View style={styles.innerContent}>
           <Badge
-            badgeStyle={{ width: 11, height: 11, borderWidth: 1 }}
-            containerStyle={{ position: 'absolute', top: 5, left: -15 }}
+            badgeStyle={{width: 11, height: 11, borderWidth: 1}}
+            containerStyle={{position: 'absolute', top: 5, left: -15}}
             status="error"
           />
           <Text style={styles.accountInfoText}>Vencida</Text>
@@ -114,7 +114,7 @@ const Dashboard: React.FC<DashboardProps> = ({ navigation }) => {
           <Text style={styles.servicesText}>Pagar com PIX</Text>
           <Image
             source={require('../../assets/imgs/pix-icon.png')}
-            style={{ backgroundColor: '#0000' }}
+            style={{backgroundColor: '#0000'}}
           />
           {/* <Icon name="credit-card" size={24} color="black" /> */}
         </View>
